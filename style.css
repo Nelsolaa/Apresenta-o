@@ -102,3 +102,7 @@ h1{
     height: 179.46px;
 
 }
+.direita{
+    display: flex;
+    flex-direction: column;
+}
