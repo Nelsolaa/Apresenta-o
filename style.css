@@ -47,7 +47,9 @@ h1{
     height: 48px;
  
 }
-
+.icones_:hover{
+    transform: scale(1.2);
+}
 .email{
     width: 151px;
     height: 55px;
@@ -57,6 +59,7 @@ h1{
 
 }
 .email:hover{
+    transform: scale(1.1);
     background-color: #C92071;
 }
 .curriculo{
@@ -67,6 +70,7 @@ h1{
     background-color: #D9D9D9;
 }
 .curriculo:hover{
+    transform: scale(1.1);
     background-color: #F6AA1C;
 }
 .contatos{
@@ -76,7 +80,7 @@ h1{
 .imagem{
     display: block;
     position: absolute; 
-    left: 40%;
+    left: 50%;
     top: 50px;
     width: 406px;
     height: 406px;
@@ -84,10 +88,13 @@ h1{
     border: 10px;
 
 }
+.imagem:hover{
+    transform: scale(1.1);
+}
 #bullet_1{
     display:block;
     position: absolute; 
-    left: 39.5%;
+    left: 49.5%;
     top: 290px;
     width: 245px;
     height: 179.46px;
@@ -96,7 +103,7 @@ h1{
 #bullet_2{
     display:block;
     position: absolute; 
-    left: 53%;
+    left: 63%;
     top: 40px;
     width: 245px;
     height: 179.46px;
